@@ -57,7 +57,7 @@ When there is a `Done!` It was started successfully.
 
 After this, you will see some files generated under the EZ4H root directory.Let's open the Config. 
 
-~~~
+~~~json
 {
   "je_host": "127.0.0.1",
   "je_port": 25565,
