@@ -6,18 +6,15 @@
 
 # EZ4H
 
-![icon](EZ4H_icon.png)
+![icon](/EZ4H_icon.png)
 
-[![HitCount](http://hits.dwyl.com/Project-EZ4H/EZ4H.svg)](http://hits.dwyl.com/Project-EZ4H/EZ4H)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)
-[![discord](https://img.shields.io/discord/799644723328974868?style=for-the-badge)](https://discord.gg/s3H67gYe7Z)
-
+[![releases](https://img.shields.io/github/v/release/FillAmeaPixelNetWork/EZ4H?display_name=tag&color=%231ab1ad)](https://github.com/FillAmeaPixelNetWork/EZ4H/releases)
+[![players](https://img.shields.io/bstats/players/10109)](https://bstats.org/plugin/bukkit/EZ4H/10109)
+[![servers](https://img.shields.io/bstats/servers/10109)](https://bstats.org/plugin/bukkit/EZ4H/10109)
+[![license](https://img.shields.io/github/license/FillAmeaPixelNetWork/EZ4H)](https://github.com/FillAmeaPixelNetWork/EZ4H/blob/main/LICENSE)
 
 
 Allow Minecraft:JE(1.12.2) connect to Minecraft:BE(1.16.210) servers!  
-
-## Bstats
-[![bstats](https://bstats.org/signatures/bukkit/EZ4H.svg)](https://bstats.org/plugin/bukkit/EZ4H/10109)
 
 ## 🎉Features
 - [x] Login
@@ -41,7 +38,7 @@ Allow Minecraft:JE(1.12.2) connect to Minecraft:BE(1.16.210) servers!
 - [X] Level Events
 - [ ] Sounds
 
-# 👍Credits
+## 👍Credits
 It would basically be impossible to have EZ4H without these open source projects, wheather its just looking how thing works inorder to reverse translate them, looking at their code to see how thing work or copying a little bit of their code. We apperiate all these projects. ❤
 - [MCProtocolLib](https://github.com/Steveice10/MCProtocolLib)
 - [Bedrock-Protocol](https://github.com/CloudburstMC/Protocol)
