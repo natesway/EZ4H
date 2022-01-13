@@ -77,11 +77,13 @@ pause
 ~~~
 **`je_host` 和 `je_port`** 是JE玩家连接服务器时使用的IP和端口（局域网），可按照个人需要配置。
 
-**`be_host` 和 `be_port`** 是所连接BE服务器的IP和端口。EZ4H支持代理外部服务器。你既可以填写本地IP，即同一台主机上的BE服务器；也可以填写网络服务器的IP（比如EaseCation服务器的IP），以此通过EZ4H进入你想玩的BE服务器。（懂得都懂![img](https://www.mcbbs.net/static/image/smiley/tong/....png))
+**`be_host` 和 `be_port`** 是所连接BE服务器的IP和端口。EZ4H支持代理外部服务器。你既可以填写局域网IP，即本地的BE服务器地址；也可以填写网络服务器的IP（如EaseCation的IP），以此通过EZ4H进入你想玩的BE服务器。（懂得都懂![img](https://www.mcbbs.net/static/image/smiley/tong/....png))
 
 **`player-list`** 是JE玩家按tab键显示的文本内容。
 
-**`xbox-auth`** 表示是否开启xbox验证（如果设置为false关闭，则你所要连接的BE服务器的xbox验证也必须是关闭状态），开启的话可以防止一些JE玩家离线登录搞♂事情，但也会带来一些限制。
+**`xbox-auth`** 表示是否开启xbox验证。开启可防止JE玩家离线登录，但会带来一些限制；若设置为false关闭，则需要确保所要连接的BE服务器的xbox验证也是关闭状态。
 
-配置好后，确保EZ4H和你想要连接的BE服务端或服务器都启动，打开你的Java版Minecraft，输入你刚刚在je_host那里填入的IP和端口，然后就能连接你在be_host那里填写的的BE服务器地址啦！
+## 游玩
+
+配置好后，确保EZ4H和你想要连接的BE服务端或服务器都启动，打开你的Java版Minecraft，输入你刚刚在je_host配置的IP和端口，然后就能连接你在be_host那里填写的的BE服务器地址啦！
 
