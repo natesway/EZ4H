@@ -1,6 +1,6 @@
 <div align="right">
   语言:
-  中文
+  中文 | 
   <a title="English" href="/README.md">ENG</a>
 </div>
 
