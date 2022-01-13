@@ -39,7 +39,7 @@
 - [ ] 声音
 
 ## 👍鸣谢
-如果没有这些开源项目，基本上就不可能有EZ4H！无论是对其反编译以查看实现原理，还是复制一点它们的代码，我们都感谢所有这些项目。❤
+如果没有这些开源项目，基本上就不可能有EZ4H！无论是对其反编译以查看实现原理，还是使用些许它们的代码，我们都感谢所有这些项目。❤
 - [MCProtocolLib](https://github.com/Steveice10/MCProtocolLib)
 - [Bedrock-Protocol](https://github.com/CloudburstMC/Protocol)
 - [TunnelMC](https://github.com/THEREALWWEFAN231/TunnelMC)
