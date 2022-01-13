@@ -1,7 +1,7 @@
 <div align="right">
   Languages:
   English
-  <a title="Chinese" href="/README_CN.md"中文🇳</a>
+  <a title="中文" href="/README_CN.md">中文</a>
 </div>
 
 # EZ4H
