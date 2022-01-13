@@ -5,7 +5,7 @@
 </div>
 
 # EZ4H
-![icon](/EZ4H_icon.png)
+[![7MoKHO.png](https://s4.ax1x.com/2022/01/13/7MoKHO.png)](https://imgtu.com/i/7MoKHO)
 
 [![releases](https://img.shields.io/github/v/release/FillAmeaPixelNetWork/EZ4H?display_name=tag&color=%231ab1ad)](https://github.com/FillAmeaPixelNetWork/EZ4H/releases)
 [![players](https://img.shields.io/bstats/players/10109)](https://bstats.org/plugin/bukkit/EZ4H/10109)
