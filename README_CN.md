@@ -47,10 +47,14 @@
 
 # 使用教程
 
+视频教程：https://www.bilibili.com/video/BV1hU4y1x7XP
+
 ## 运行
 
+在仓库[Releases](https://github.com/FillAmeaPixelNetWork/EZ4H/releases)里下载最新版本 `EZ4H.zip` ，解压至任意路径。
+
 与大多数用 Java 编写的服务端一样， 你需要一个 `.BAT` 批处理文件来启动。  
-~~~  
+~~~  powershell
 @echo  
 java -jar ez4h.jar  
 pause
