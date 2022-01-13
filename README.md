@@ -1,7 +1,7 @@
 <div align="right">
   Languages:
-  🇺🇸
-  <a title="Chinese" href="/README_CN.md">🇨🇳</a>
+  English
+  <a title="中文" href="/README_CN.md">🇨🇳</a>
 </div>
 
 # EZ4H
