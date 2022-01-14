@@ -74,7 +74,7 @@ I think you already know how to configure this, but I'm going to go through it b
 
 **`je_host` & `je_port`**  are the local IP and port used by JE players to connect to the server, which can be configured according to needs. 
 
-**`be_host` and `be_port`** are the IP and port of the desired BE server to connect to. EZ4H supports proxy external servers. You can fill in either the LAN IP, i.e. the local BE server address, or the IP of the online server to proxy the BE server you want to play on through EZ4H.
+**`be_host` & `be_port`** are the IP and port of the desired BE server to connect to. EZ4H supports proxy external servers. You can fill in either the LAN IP, i.e. the local BE server address, or the IP of the online server to proxy the BE server you want to play on through EZ4H.
 
 **`player-list`**  is the text content displayed when JE players press the tab key.
 
