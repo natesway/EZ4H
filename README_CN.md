@@ -4,13 +4,8 @@
   <a title="English" href="/README.md">ENG</a>
 </div>
 
-# EZ4H
-[![7MoKHO.png](https://s4.ax1x.com/2022/01/13/7MoKHO.png)](https://imgtu.com/i/7MoKHO)
-
-[![releases](https://img.shields.io/github/v/release/FillAmeaPixelNetWork/EZ4H?display_name=tag&color=%231ab1ad)](https://github.com/FillAmeaPixelNetWork/EZ4H/releases)
-[![players](https://img.shields.io/bstats/players/10109)](https://bstats.org/plugin/bukkit/EZ4H/10109)
-[![servers](https://img.shields.io/bstats/servers/10109)](https://bstats.org/plugin/bukkit/EZ4H/10109)
-[![license](https://img.shields.io/github/license/FillAmeaPixelNetWork/EZ4H)](https://github.com/FillAmeaPixelNetWork/EZ4H/blob/main/LICENSE)
+# EZ4H [![releases](https://img.shields.io/github/v/release/FillAmeaPixelNetWork/EZ4H?display_name=tag&color=%231ab1ad)](https://github.com/FillAmeaPixelNetWork/EZ4H/releases)[![players](https://img.shields.io/bstats/players/10109)](https://bstats.org/plugin/bukkit/EZ4H/10109)[![servers](https://img.shields.io/bstats/servers/10109)](https://bstats.org/plugin/bukkit/EZ4H/10109)[![license](https://img.shields.io/github/license/FillAmeaPixelNetWork/EZ4H)](https://github.com/FillAmeaPixelNetWork/EZ4H/blob/main/LICENSE)
+![EZ4H](/EZ4H.png)
 
 打破MC服务器壁垒，让Java版玩家进入基岩版服务器！
 

@@ -4,14 +4,9 @@
   <a title="中文" href="/README_CN.md">中文</a>
 </div>
 
-# EZ4H
+# EZ4H [![releases](https://img.shields.io/github/v/release/FillAmeaPixelNetWork/EZ4H?display_name=tag&color=%231ab1ad)](https://github.com/FillAmeaPixelNetWork/EZ4H/releases)[![players](https://img.shields.io/bstats/players/10109)](https://bstats.org/plugin/bukkit/EZ4H/10109)[![servers](https://img.shields.io/bstats/servers/10109)](https://bstats.org/plugin/bukkit/EZ4H/10109)[![license](https://img.shields.io/github/license/FillAmeaPixelNetWork/EZ4H)](https://github.com/FillAmeaPixelNetWork/EZ4H/blob/main/LICENSE)
 
-![7MTSGd.png](https://s4.ax1x.com/2022/01/13/7MTSGd.png)
-
-[![releases](https://img.shields.io/github/v/release/FillAmeaPixelNetWork/EZ4H?display_name=tag&color=%231ab1ad)](https://github.com/FillAmeaPixelNetWork/EZ4H/releases)
-[![players](https://img.shields.io/bstats/players/10109)](https://bstats.org/plugin/bukkit/EZ4H/10109)
-[![servers](https://img.shields.io/bstats/servers/10109)](https://bstats.org/plugin/bukkit/EZ4H/10109)
-[![license](https://img.shields.io/github/license/FillAmeaPixelNetWork/EZ4H)](https://github.com/FillAmeaPixelNetWork/EZ4H/blob/main/LICENSE)
+![EZ4H](/EZ4H.png)
 
 EZ4H is a bridge/proxy between Minecraft: JE and Minecraft: BE, which allows JE-clients (1.12.2) to connect to BE-servers (1.16.210) .
 
