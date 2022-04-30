@@ -66,7 +66,7 @@ pause
   "je_port": 25565,
   "be_host": "127.0.0.1",
   "be_port": 19132,
-  "player-list": "A §bEZ§a4§bH§f§r Proxyed Server!\nhttps://github.com/MeditationDev/EZ4H",
+  "player-list": "A §bEZ§a4§bH§f§r Proxyed Server!\nhttps://github.com/FillAmeaPixelNetWork/EZ4H",
   "advanced": {
     "debug": 0,
     "save-authdata": false,
