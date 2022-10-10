@@ -22,7 +22,7 @@ public class ClientWindowActionPacketTranslator implements JavaTranslator {
     public void translate(Packet inPacket, Client client) {
         ClientWindowActionPacket packet = (ClientWindowActionPacket) inPacket;
         //TODO:Rewrite
-        switch (packet.getMode()) {
+        switch (packet.getActionId() ) {
             case 0: {
                 if (packet.getSlot() == -999) return;
                 if (client.getData().getItemInHand() == 0) {
@@ -38,14 +38,14 @@ public class ClientWindowActionPacketTranslator implements JavaTranslator {
                 break;
             }
             case 2: {
-                moveItem(packet.getSlot(), packet.getButton() + 36, client);
+                moveItem(packet.getSlot(), packet.getWindowId() + 36, client);
                 break;
             }
             case 4: {
                 if (packet.getSlot() == -999) return;
                 int count = 1;
                 ItemData item = client.getData().getInventory().getBedrockItem(packet.getSlot());
-                if (packet.getButton() == 1) {
+                if (packet.getWindowId() == 1) {
                     count = item.getCount();
                 }
                 ((ClientPlayerActionPacketTranslator) EZ4H.getTranslatorManager().getJavaTranslator(ClientPlayerActionPacket.class)).dropItem(client, count, item);

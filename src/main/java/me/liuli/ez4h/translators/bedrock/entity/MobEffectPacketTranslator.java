@@ -12,6 +12,7 @@ import me.liuli.ez4h.EZ4H;
 import me.liuli.ez4h.minecraft.Client;
 import me.liuli.ez4h.translators.BedrockTranslator;
 import me.liuli.ez4h.utils.FileUtil;
+import com.github.steveice10.mc.protocol.data.game.entity.Effect;
 
 public class MobEffectPacketTranslator implements BedrockTranslator {
     private final JSONObject bedrockEffects, javaEffects;
@@ -26,7 +27,7 @@ public class MobEffectPacketTranslator implements BedrockTranslator {
     public void translate(BedrockPacket inPacket, Client client) {
         MobEffectPacket packet = (MobEffectPacket) inPacket;
 
-        Integer effect = getEffect(packet.getEffectId(), client);
+        Effect effect = Effect.values()[getEffect(packet.getEffectId(), client)];
         if (effect == null) return;
 
         switch (packet.getEvent()) {
