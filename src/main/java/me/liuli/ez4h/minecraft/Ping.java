@@ -43,7 +43,7 @@ class PingThread implements Runnable {
             client.ping(addressToPing).whenComplete((pong, throwable) -> {
                 if (throwable != null) {
                     sendPingData(session, new ServerStatusInfo(
-                            new VersionInfo("EZ4H", session.getFlag(MinecraftConstants.GAME_VERSION)),
+                            new VersionInfo("EZ4H", MinecraftConstants.PROTOCOL_VERSION),
                             new PlayerInfo(0, 0, new GameProfile[0]),
                             new TextMessage("§eA EZ4H Proxied Server!\n§cPING FAILED:" + throwable.getLocalizedMessage()),
                             EZ4H.getConfigManager().getServerIcon()
@@ -53,7 +53,7 @@ class PingThread implements Runnable {
                 // Pong received.
                 Ping.setDescription(new TextMessage(pong.getMotd() + "\n" + pong.getSubMotd()));
                 sendPingData(session, new ServerStatusInfo(
-                        new VersionInfo("EZ4H", session.getFlag(MinecraftConstants.GAME_VERSION)),
+                        new VersionInfo("EZ4H", MinecraftConstants.PROTOCOL_VERSION),
                         new PlayerInfo(pong.getMaximumPlayerCount(), pong.getPlayerCount(), new GameProfile[0]),
                         Ping.getDescription(),
                         EZ4H.getConfigManager().getServerIcon()
@@ -64,7 +64,7 @@ class PingThread implements Runnable {
             e.printStackTrace();
             client.close();
             sendPingData(session, new ServerStatusInfo(
-                    new VersionInfo("EZ4H", session.getFlag(MinecraftConstants.GAME_VERSION)),
+                    new VersionInfo("EZ4H", MinecraftConstants.PROTOCOL_VERSION),
                     new PlayerInfo(0, 0, new GameProfile[0]),
                     new TextMessage("§eA EZ4H Proxied Server!\n§cPING FAILED:" + e.getLocalizedMessage()),
                     EZ4H.getConfigManager().getServerIcon()
